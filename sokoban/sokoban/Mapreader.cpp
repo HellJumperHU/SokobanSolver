@@ -21,7 +21,13 @@ bool IsMapElement(const std::string actualrowofmap,unsigned int rowindex) {
     return true;
 }
 
-void FillTheGapInTheActualRow() {
+
+void FillTheGapInTheActualRow(std::string& actualrowofmap, const unsigned int column) {
+    unsigned int ammountofmissingcharacters = column - actualrowofmap.length();
+    for (unsigned int numberofwallsadded = 0; numberofwallsadded < ammountofmissingcharacters; numberofwallsadded++)
+    {
+        actualrowofmap.append("x");
+    }
 
 }
 
@@ -81,11 +87,8 @@ void GetMap(char** storedmap, const unsigned int column, const unsigned int row,
                 throw std::invalid_argument("The character is not part of the map's values");
 
             }
-            int difference = column - actualrowofmap.length();
-            for (int differenceindex = 0; differenceindex < difference; differenceindex++)
-            {
-                actualrowofmap.append("x");
-            }
+            if (column - actualrowofmap.length())
+                FillTheGapInTheActualRow(actualrowofmap, column);
 
             for (unsigned int columnindex = 0; columnindex < column; columnindex++)
             {
