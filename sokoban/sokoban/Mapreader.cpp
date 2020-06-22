@@ -21,7 +21,6 @@ bool IsMapElement(const std::string actualrowofmap,unsigned int rowindex) {
     return true;
 }
 
-
 void FillTheGapInTheActualRow(std::string& actualrowofmap, const unsigned int column) {
     unsigned int ammountofmissingcharacters = column - actualrowofmap.length();
     for (unsigned int numberofwallsadded = 0; numberofwallsadded < ammountofmissingcharacters; numberofwallsadded++)
@@ -103,7 +102,6 @@ void GetMap(char** storedmap, const unsigned int column, const unsigned int row,
         std::cerr << leng.what();
     }
 }
-
 
 void WriteOutMap(char** storedmap, const unsigned int column, const unsigned int row) {
     for (unsigned int rowindex = 0; rowindex < row; rowindex++)

@@ -6,6 +6,8 @@
 
 bool IsMapElement(const std::string actualrowofmap);
 
+void FillTheGapInTheActualRow(std::string& actualrowofmap, const unsigned int column);
+
 bool IsANumber(std::string input);
 
 void GetMapSize(unsigned int& column, unsigned int& row, const std::string filepath, std::ifstream& sokobanmapsizereader);
