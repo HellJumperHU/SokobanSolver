@@ -3,14 +3,24 @@ F:\GitHubRepo\SokobanSolver\sokoban\sokoban\MapInputHandler.cpp(178,36): warning
 F:\GitHubRepo\SokobanSolver\sokoban\sokoban\MapInputHandler.cpp(179,42): warning C4552: '!=': result of expression not used
 F:\GitHubRepo\SokobanSolver\sokoban\sokoban\MapInputHandler.cpp(186,42): warning C4552: '!=': result of expression not used
   main.cpp
-F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(23,47): warning C4018: '<': signed/unsigned mismatch
-F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(26,50): warning C4018: '<': signed/unsigned mismatch
-F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(52,21): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(24,47): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(27,50): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(53,21): warning C4018: '<': signed/unsigned mismatch
+  PathFindercpp.cpp
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(24,47): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(27,50): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(53,21): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\PathFindercpp.cpp(26,38): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\PathFindercpp.cpp(29,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\PathFindercpp.cpp(31,41): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\PathFindercpp.cpp(33,12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\PathFindercpp.cpp(35,12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\PathFindercpp.cpp(39,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   Solve.cpp
-F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(23,47): warning C4018: '<': signed/unsigned mismatch
-F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(26,50): warning C4018: '<': signed/unsigned mismatch
-F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(52,21): warning C4018: '<': signed/unsigned mismatch
-F:\GitHubRepo\SokobanSolver\sokoban\sokoban\Solve.cpp(18,36): warning C4018: '<': signed/unsigned mismatch
-F:\GitHubRepo\SokobanSolver\sokoban\sokoban\Solve.cpp(20,43): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(24,47): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(27,50): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(53,21): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\Solve.cpp(37,36): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\Solve.cpp(39,43): warning C4018: '<': signed/unsigned mismatch
   Generating Code...
   sokoban.vcxproj -> F:\GitHubRepo\SokobanSolver\sokoban\Debug\sokoban.exe

@@ -12,6 +12,7 @@ public:
 	position PlayerPos;
 	std::vector<position> cratePos;
 	std::vector<position> targetPos;
+	std::vector<char> playermovedirection;
 	std::vector<char> PathFromPreviousState;
 	std::vector<position> freecrateside;
 	State* firststate;
@@ -67,6 +68,14 @@ public:
 		}
 	}
 
+	void DeleteAllStates(State* lastState) {
+		while (lastState != NULL)
+		{
+			State* tmpfordelete = lastState;
+			lastState = lastState->previousstate;
+			delete tmpfordelete;
+		}
+	}
 
 	State() {
 		PlayerPos = { 0,0 };

@@ -10,11 +10,30 @@ void Solve(char** sokobanmap, const unsigned int row, unsigned int column) {
 	state_current = new State();
 	state_head = state_current;
 	state_tmp = state_current;
-
-	//SetStateHead(state_current, sokobanmap, row, column);
+	SetStateHead(state_current, sokobanmap, row, column);
 }
 
-void SetStateHead(State* state_head, const char** sokomap, const unsigned int row, const unsigned int column) {
+void CollectAvailableDirections(char** sokomap, State* state_current) {
+	if (sokomap[state_current->PlayerPos.x - 1][state_current->PlayerPos.y] == ' ')
+	{
+		state_current->playermovedirection.push_back('L');
+	}
+	if (sokomap[state_current->PlayerPos.x + 1][state_current->PlayerPos.y] == ' ')
+	{
+		state_current->playermovedirection.push_back('R');
+	}
+	if (sokomap[state_current->PlayerPos.x][state_current->PlayerPos.y + 1] == ' ')
+	{
+		state_current->playermovedirection.push_back('U');
+	}
+	if (sokomap[state_current->PlayerPos.x][state_current->PlayerPos.y - 1] == ' ')
+	{
+		state_current->playermovedirection.push_back('D');
+	}
+
+}
+
+void SetStateHead(State* state_head,char** sokomap, const unsigned int row, const unsigned int column) {
 	for (int _rowindex = 0; _rowindex < row; _rowindex++)
 	{
 		for (int _columnIndex = 0; _columnIndex < column; _columnIndex++)
