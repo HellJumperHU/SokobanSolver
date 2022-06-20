@@ -1,1 +1,16 @@
-﻿
+﻿  MapInputHandler.cpp
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\MapInputHandler.cpp(178,36): warning C4552: '!=': result of expression not used
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\MapInputHandler.cpp(179,42): warning C4552: '!=': result of expression not used
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\MapInputHandler.cpp(186,42): warning C4552: '!=': result of expression not used
+  main.cpp
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(23,47): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(26,50): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(52,21): warning C4018: '<': signed/unsigned mismatch
+  Solve.cpp
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(23,47): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(26,50): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\State.h(52,21): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\Solve.cpp(18,36): warning C4018: '<': signed/unsigned mismatch
+F:\GitHubRepo\SokobanSolver\sokoban\sokoban\Solve.cpp(20,43): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  sokoban.vcxproj -> F:\GitHubRepo\SokobanSolver\sokoban\Debug\sokoban.exe
