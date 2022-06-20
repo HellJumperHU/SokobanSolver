@@ -1,22 +1,27 @@
 // sokoban.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
-#include "MapReader.h"
-
+#ifndef Main_CPP
+#define Main_CPP
+#include "MapInputHandler.h"
+#include "State.h"
+#include "Solve.h"
+#endif // !Main_CPP
 
 
 int main()
 {
     _CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 
+
     bool iserrorpresent = false;
     unsigned int row=0, column=0;    
     std::string filepath;
-    filepath = "map.txt";
+    filepath = "map.skb";
     char** sokobanmap;
     SokobanMapReader(row, column, sokobanmap, iserrorpresent, filepath);
     if (iserrorpresent) return 1;
-    WriteOutMap(sokobanmap, column, row);    
+    WriteOutMap(sokobanmap, column, row);   
+    Solve(sokobanmap, row,column);
     SokobanMapDelete(row, column, sokobanmap);
 }
 

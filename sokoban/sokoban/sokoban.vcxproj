@@ -139,12 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Mapreader.cpp" />
+    <ClCompile Include="MapInputHandler.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Solve.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MapReader.h" />
-    <ClInclude Include="PathFinderToChest.h" />
+    <ClInclude Include="MapInputHandler.h" />
+    <ClInclude Include="Operator.h" />
+    <ClInclude Include="PathFinder.h" />
+    <ClInclude Include="Position.h" />
+    <ClInclude Include="Solve.h" />
+    <ClInclude Include="State.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,6 +1,6 @@
 5
 4
 xxxxx
-x.cdx
-x..px
+x cdx
+x  px
 xxxxx
